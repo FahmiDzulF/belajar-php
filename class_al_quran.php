@@ -4,10 +4,12 @@ class Al_quran
 {
     public $cover;
     public $jenis;
-
-    public function al_quran()
+    public function bacakan()
     {
-        return "dibaca , di tutup . .";
+        return "bacakan";
+    }
+    public function terjemahkan()
+    {
+        return "terjemahkan";
     }
 }
-

@@ -2,12 +2,14 @@
 
 class Lampu
 {
-    public $cahaya;
-	public $merk;
-
-    public function lampu()
+    public $merk;
+    public $watt;
+    public function nyalakan()
     {
-		return "mati di siang hari, hidup dimalam har . . ";
+        return "Nyalakan";
+    }
+    public function matikan()
+    {
+        return "matikan";
     }
 }
-

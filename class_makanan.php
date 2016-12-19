@@ -2,15 +2,14 @@
 
 class Makanan
 {
-	public $nasi_pecel;
-	public $nasi_goreng;
-	public $nasi_jagung;
-	public $nasi_telor;
-	public $nasi_campur;
-
-	public function makanan_hari_hari()
-	{
-		return "Dibuang , Dimakan . .";
-	}
+    public $jenis_makanan;
+    public $harga;
+    public function di_makan()
+    {
+        return "di makan";
+    }
+    public function di_buang()
+    {
+        return "di buang";
+    }
 }
-

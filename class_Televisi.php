@@ -1,12 +1,15 @@
 <?php
 
-class Tv
+class Televisi
 {
-    public $Speaker;
-    public $Layar;
-
-    public function televisi()
+    public $merk;
+    public $harga;
+    public function nyalakan()
     {
-        return "Hidupkan, Matikan . .";
+        return "nyalakan";
+    }
+    public function matikan()
+    {
+        return "matikan";
     }
 }
